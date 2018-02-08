@@ -1,0 +1,35 @@
+[user]
+ email = email@domain.com
+ name = nombre
+
+[alias]
+ st = status
+ ci = commit
+ br = branch
+ co = checkout
+ df = diff
+ lg = log -p
+ who = shortlog
+ lol = log --graph --decorate --pretty=oneline --abbrev-commit
+ lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+
+[color]
+ diff = auto
+ status = auto
+ branch = auto
+ interactive = auto
+ ui = true
+ pager = true
+
+[color "diff"]
+ meta = yellow bold
+ frag = magenta bold
+ old = red bold
+ new = green bold
+
+[color "status"]
+ added = yellow
+ changed = green
+ untracked = cyan
+[credential]
+ helper = cache --timeout = 3600
